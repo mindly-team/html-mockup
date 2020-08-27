@@ -1,8 +1,35 @@
 @font-face {
-  font-family: apercu-pro;
-  src: url(fonts/apercu_bold_italic_pro.otf);
+  font-family: Apercu-Pro;
+  src: url("fonts/apercu_bold_italic_pro.otf");
   font-style: italic;
   font-weight: bold;
+}
+
+@font-face {
+  font-family: Apercu-Pro;
+  src: url("fonts/apercu_bold_pro.otf");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Apercu-Pro;
+  src: url("fonts/apercu_medium_pro.otf");
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: Apercu-Pro;
+  src: url("fonts/apercu_regular_pro.otf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Apercu-Pro-Mono;
+  src: url("fonts/apercu_mono_pro.otf");
+  font-style: normal;
+  font-weight: normal;
 }
 
 ul {
@@ -12,5 +39,5 @@ ul {
 }
 
 .logo {
-  font-family: apercu-pro;
+  font-family: Apercu-Pro;
 }
