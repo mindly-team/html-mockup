@@ -136,10 +136,51 @@ ul {
    margin: 0;
 }
 
+.article {
+  display: flex;
+  align-items: center;
+  margin: 0 10%;
+}
+
+
+
+.article-info {
+  padding: 1rem 0 1rem 1rem;
+
+}
+
+.category {
+  width: 30%;
+  background-color: #FDDA00;
+  border-radius: 3px;
+  padding: 0.1rem;
+  text-align: center;
+  font-family: Apercu-Pro-Mono;
+  font-style: normal;
+  font-size: 8px;
+}
+
+
+.article-title {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.author {
+  font-size: 9px;
+  font-weight: bold;
+  color: #646464;
+}
+
 img {
-  display: block;
-  width: 29.3%;
+  width: 30%;
+  height: 100px;
   border-radius: 8px;
+  object-fit: cover;
+
 }
 
 h1 {
