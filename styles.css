@@ -75,7 +75,18 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
+
+}
+
+.nav-item {
+  list-style: none;
+  margin: 1rem;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: black;
 }
 
 .logo {
@@ -86,6 +97,56 @@ ul {
   line-height: 37px;
   align-items: center;
   text-align: center;
+  margin-top: auto;
+  margin-bottom: 1rem;
+}
 
-  color: #000000;
+.featured-info-container {
+  padding-bottom: 1rem;
+}
+
+.featured-text {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: flex-end;
+  align-content: center;
+  align-items: center;
+  margin-top: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.featured-title {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.featured {
+   background-image: url("images/placeholder.png");
+   height: 50vh;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   flex: 0 0 60vw;
+   margin: 0;
+}
+
+img {
+  display: block;
+  width: 29.3%;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  font-size: 10px;
+  font-weight: normal;
 }
