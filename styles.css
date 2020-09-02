@@ -127,13 +127,13 @@ ul {
 }
 
 .featured {
-   background-image: url("images/placeholder.png");
-   height: 50vh;
-   background-position: center;
-   background-size: cover;
-   background-repeat: no-repeat;
-   flex: 0 0 60vw;
-   margin: 0;
+  background-image: url("images/placeholder.png");
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex: 0 0 60vw;
+  margin: 0;
 }
 
 .article {
